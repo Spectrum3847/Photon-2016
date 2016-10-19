@@ -25,27 +25,27 @@ public class Dashboard {
     		//SmartDashboard.putNumber("Motor 1", 0);
         	
     		SmartDashboard.putBoolean("Compressor", true);
-    		SmartDashboard.putNumber("Shooter PID Front Tilt Speed", 5800);
-    		SmartDashboard.putNumber("Shooter PID Front Flat Speed", 5800);
-    		SmartDashboard.putNumber("Shooter PID Middle Speed", 3500);
-    		SmartDashboard.putNumber("Shooter PID Rear Speed", 2400);
+    		SmartDashboard.putNumber("Shooter PID Front Tilt Speed", 9700);
+    		SmartDashboard.putNumber("Shooter PID Front Flat Speed", 10000);
+    		SmartDashboard.putNumber("Shooter PID Middle Speed", 5500);
+    		SmartDashboard.putNumber("Shooter PID Rear Speed", 3500);
     		
-    		SmartDashboard.putNumber("Shooter P_tilt", 1.0);
+    		SmartDashboard.putNumber("Shooter P_tilt", .095);
     		SmartDashboard.putNumber("Shooter I_tilt", 0);
-    		SmartDashboard.putNumber("Shooter D_tilt", 0.5);
-    		SmartDashboard.putNumber("Shooter F_tilt", 0.023);
-    		SmartDashboard.putNumber("Shooter P_flat", 1.0);
+    		SmartDashboard.putNumber("Shooter D_tilt", .1);
+    		SmartDashboard.putNumber("Shooter F_tilt", 0.009);
+    		SmartDashboard.putNumber("Shooter P_flat", .13);
     		SmartDashboard.putNumber("Shooter I_flat", 0);
-    		SmartDashboard.putNumber("Shooter D_flat", 0.5);
-    		SmartDashboard.putNumber("Shooter F_flat", 0.023);
-    		SmartDashboard.putNumber("Shooter P_middle", 0.1);
+    		SmartDashboard.putNumber("Shooter D_flat", .1);
+    		SmartDashboard.putNumber("Shooter F_flat", 0.009);
+    		SmartDashboard.putNumber("Shooter P_middle", .004);
     		SmartDashboard.putNumber("Shooter I_middle", 0);
-    		SmartDashboard.putNumber("Shooter D_middle", 0.1);
-    		SmartDashboard.putNumber("Shooter F_middle", .04);
-    		SmartDashboard.putNumber("Shooter P_rear", 0.09);
+    		SmartDashboard.putNumber("Shooter D_middle", .001);
+    		SmartDashboard.putNumber("Shooter F_middle", .019);
+    		SmartDashboard.putNumber("Shooter P_rear", .180);
     		SmartDashboard.putNumber("Shooter I_rear", 0);
-    		SmartDashboard.putNumber("Shooter D_rear", 0.2);
-    		SmartDashboard.putNumber("Shooter F_rear", .055);
+    		SmartDashboard.putNumber("Shooter D_rear", 0);
+    		SmartDashboard.putNumber("Shooter F_rear", .035);
     		SmartDashboard.putNumber("On Target Percentage", 10);
     		
     		SmartDashboard.putBoolean("DriveBase Squared Inputs", true);

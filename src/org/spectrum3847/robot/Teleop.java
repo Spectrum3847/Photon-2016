@@ -24,6 +24,8 @@ public class Teleop {
         
         Robot.compressor.start();
         Robot.compressor.setClosedLoopControl(true);
+        
+        Robot.shooterCarriage.extend();
     }
 
     public static void periodic() {
